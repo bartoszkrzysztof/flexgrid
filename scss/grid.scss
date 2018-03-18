@@ -1,0 +1,13 @@
+@import 'template/basic'; 
+
+$columns: 12;
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+
+   grid-column-gap: 30px;
+}
+.column {
+   grid-column: span 4;
+}

@@ -1,0 +1,19 @@
+body {
+   padding: 0;
+   margin: 0;
+   background: #CCC;
+}
+
+.container {
+   width: 1240px;
+   margin: 0 auto;
+   background: #FFF;
+}
+
+.column {
+   background: #FFF;
+
+   &:nth-child(odd) {
+      background: #EEE;
+   }
+}
